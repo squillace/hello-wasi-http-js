@@ -1,0 +1,24 @@
+{
+  "name": "hello-wasi-http-js",
+  "version": "1.0.0",
+  "description": "Hello world wasi:http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "wasmtime serve -Scommon"
+  },
+  "devDependencies": {
+    "@bytecodealliance/preview2-shim": "^0.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hello-wasi-http-js"
+  },
+  "keywords": [
+    "wasi",
+    "wasm",
+    "components",
+    "wasi:http"
+  ],
+  "author": "ralph squillace",
+  "license": "ISC"
+}
